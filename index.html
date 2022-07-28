@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbrella</title>
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body style="background :rgb(205 237 235)">
+  <div id="outer">
+    <div id="inner-1" class="item">
+      <img src="Blue umbrella.png" alt="Loading img" id="add_img">
+       <div id="display_image">
+        <!-- This div for logo when we upload logo then that logo placed in this div -->
+      </div>
+    </div>
+    <div id="inner-2" class="item">
+        <h1>Custom Umbrella</h1>
+        
+        <div id="button">
+         
+          <!-- <div>hi</div> -->
+          
+          
+           <button class="btn" id="button-1" onclick="greetPink()"></button>
+            <button class="btn" id="button-2" onclick="greetBlue()"></button>
+            <button class="btn" id="button-3" onclick="greetYellow()"></button>
+            
+            
+        </div>
+
+        <h3 class="customize">Customize your Umbrella</h3>
+        <span class="upload">Upload an logo for instant preview</span>   
+        <span class="png">.png and .jpg file only. Max file size 5MB.</span> 
+
+        <div class="fileInput">
+        <input type="file" id="image_input" accept="image/png, image/jpg, image/jpeg">
+       
+        <div class="logoDesign">
+        <label for="image_input" id="logo" >
+        
+          <span>
+            <img src="upload_icon.svg" alt="" >
+            </span>
+          Upload logo</label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Rotate Code -->
+
+  <!-- <div class="box">
+    <img src="" alt="">
+  </div> -->
+  <script src="javascript.js"></script>
+</body>
+</html> 

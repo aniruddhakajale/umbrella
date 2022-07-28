@@ -1,0 +1,207 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: bold; */
+
+}
+#outer{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    height: 620px;
+    width: 100%;
+    justify-content: space-around;
+   
+    
+}
+.item{
+    width: calc(100% / 2);
+    height: 100%;
+  
+    align-items: center;
+    justify-content: center;
+  
+}
+#inner-1{
+  /* border: 2px solid green; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+
+
+#display_image{
+    /*bottom: 120px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 2px solid black;
+    */
+   
+    position: absolute;
+    bottom: 145px;
+    width: 100px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#inner-1 img{
+    /* border: 1px solid black; */
+    width: 500px;
+    
+}
+
+#inner-2{
+    /* border: 2px solid orange ; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Button style or pic a umbrella color */
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -177px;
+  
+
+}
+
+.btn{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    border: 0.1px solid gray;
+    
+    
+}
+.btn:hover{
+    /* border: 0.1px solid gray; */
+}
+
+#button-1{
+ 
+ background-color:rgb(231 37 142);
+    
+}
+
+#button-2{
+    background-color: #07a5e0;
+}
+
+#button-3{
+    background-color: #fffb1b;
+}
+
+
+/* Heding Second half Style */
+
+h1{
+    padding: 0px;
+    margin: 20px;
+}
+
+h3{
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    margin-left: -39px;
+}
+
+.upload{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+.png{
+
+    padding: 0px;
+    margin: 0px;
+    margin-left: 23px;
+   font-style: normal;
+   font-size: 15px;
+   margin-bottom: 8px;
+}
+
+/* Upload Logo Styling  */
+
+
+input[type="file"]{
+    display: none;
+}
+
+  
+
+
+#logo{
+    /* border: 2px solid black; */
+    
+    color: white;
+    height: 45px;
+    width: 350px;
+    background-color: rgb(31 174 227);
+    position: absolute;
+    margin: auto;
+    /* left: 0;
+    right: 0; */
+    text-transform: uppercase;
+    right: 118px;
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDesign img{
+    font-size: 500px;
+}
+
+
+
+.logoDesign span{
+   position: relative;
+   right: 90px;
+    filter: invert(100%);
+    font-weight: bolder;
+}
+
+/* Text  */
+
+
+ /* Style of file input */
+
+ /* Rotate Propery */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: black;
+
+    transition-property: transform;
+    transition-duration: 10s ;
+    transition-delay: 1.7ms;
+   
+   
+
+}
+
+.box:hover{
+    transform:rotate(3650deg);
+   
+}
+
+
+
+/* Loading image styleing */
